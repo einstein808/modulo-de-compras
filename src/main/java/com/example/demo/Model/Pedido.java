@@ -21,6 +21,7 @@ public class Pedido {
     @JoinColumn(name = "pedido_id")
     private List<Item> items;
     private double valorTotal;
+    private boolean aprovado;
 
 
 
